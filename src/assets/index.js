@@ -25,10 +25,18 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import dxc from "./company/dxc.png";
+import futurefinder from "./company/futurefinder.png";
+import jio from "./company/jio.png";
+import LetsGrow from "./company/LetsGrow.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import java from "./tech/java.png";
+import spring from "./tech/spring.png";
+import sql from "./tech/sql.png";
+
 
 export {
   logo,
@@ -59,4 +67,11 @@ export {
   carrent,
   jobit,
   tripguide,
+  java,
+  sql,
+  spring,
+  jio,
+  dxc,
+  futurefinder,
+  LetsGrow,
 };

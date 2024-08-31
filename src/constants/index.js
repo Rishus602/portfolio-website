@@ -23,6 +23,13 @@ import {
   jobit,
   tripguide,
   threejs,
+  spring,
+  java,
+  sql,
+  LetsGrow,
+  futurefinder,
+  dxc,
+  jio,
 } from "../assets";
 
 export const navLinks = [
@@ -46,7 +53,7 @@ const services = [
     icon: web,
   },
   {
-    title: "React Native Developer",
+    title: "Java Full Stack Developer",
     icon: mobile,
   },
   {
@@ -54,7 +61,7 @@ const services = [
     icon: backend,
   },
   {
-    title: "Content Creator",
+    title: "Database Developer",
     icon: creator,
   },
 ];
@@ -73,16 +80,16 @@ const technologies = [
     icon: javascript,
   },
   {
-    name: "TypeScript",
-    icon: typescript,
+    name: "Java",
+    icon: java,
   },
   {
     name: "React JS",
     icon: reactjs,
   },
   {
-    name: "Redux Toolkit",
-    icon: redux,
+    name: "Spring Boot",
+    icon: spring,
   },
   {
     name: "Tailwind CSS",
@@ -105,8 +112,8 @@ const technologies = [
     icon: git,
   },
   {
-    name: "figma",
-    icon: figma,
+    name: "Sql",
+    icon: sql,
   },
   {
     name: "docker",
@@ -116,11 +123,11 @@ const technologies = [
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
+    title: "Web Developer Intern",
+    company_name: "Lets Grow More",
+    icon: LetsGrow,
     iconBg: "#383E56",
-    date: "March 2020 - April 2021",
+    date: "March 2022 - April 2022",
     points: [
       "Developing and maintaining web applications using React.js and other related technologies.",
       "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
@@ -129,42 +136,42 @@ const experiences = [
     ],
   },
   {
-    title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    title: "MERN / JAVA Developer",
+    company_name: "Future Finder",
+    icon: futurefinder,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2023 - June 2023",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and maintained full-stack projects using Java-based and MERN technologies, demonstrating proficiency in both backend and frontend development.",
+      "Led the creation of dynamic, scalable web applications, ensuring high performance and robust functionality across various platforms.",
+      "Mentored students by teaching full-stack development, guiding them through building their own projects, and preparing them for real-world development challenges.",
+      "Collaborated with cross-functional teams to design, develop, and deploy high-quality applications, enhancing user experience and functionality.",
+    ],
+  },
+   {
+    title: "Assosciate Software Engineering - Trainee ",
+    company_name: "DXC",
+    icon: dxc,
+    iconBg: "#E6DEDD",
+    date: "April 2023 - Nov 2023",
+    points: [
+      "Gained web development knowledge and experience through learning at DXC, including working on projects and studying Java.",
+"Completed exams and assessments in Java, demonstrating proficiency and clear understanding of the subject.",
+"Studied networking and database management, enhancing overall technical expertise and project capabilities.",
+"Developed and deployed full-stack projects, applying learned concepts to real-world applications and solutions."
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Backend Developer",
+    company_name: "Reliance JIO",
+    icon: jio,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Dec 2023 - Aug 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
-    iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Engineered and optimized a coupon management system using Java and Spring Boot, which resulted in a 30% reduction in system downtime and a 25% increase in operational efficiency.",
+      "Developed and implemented secure API protocols utilized by over 10 teams, standardizing security measures and enhancing project security across the organization.",
+      "Deployed government-mandated features utilizing CloudXP and SIEM portals, achieving full compliance and operational efficiency.",
+      "Enhanced application performance through Docker and Kubernetes, leading to a 50% reduction in deployment times and ensuring consistent application performance.",
     ],
   },
 ];
@@ -198,58 +205,62 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Coupon Management System",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "Developed a Coupon Management System with Java and Spring Boot, improving efficiency by 25%, reducing downtime by 30%, and streamlining deployment and security protocols.",
     tags: [
       {
-        name: "react",
+        name: "java",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: "springboot",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "mysql",
         color: "pink-text-gradient",
+      },
+      {
+        name: "spring MVC",
+        color: "green-text-gradient",
       },
     ],
     image: carrent,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Rishus602/coupon-management-system",
   },
   {
-    name: "Job IT",
+    name: "Social Mania",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "Developed a full-stack social media application with React, Node.js, and MongoDB, featuring user registration, post creation, and content interaction.The platform enables users to upload, comment, and engage with posts, offering a dynamic and engaging experience.",
     tags: [
       {
         name: "react",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "nodejs",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Mongodb",
         color: "pink-text-gradient",
       },
     ],
     image: jobit,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://github.com/Rishus602/deploy-social-mern",
   },
   {
-    name: "Trip Guide",
+    name: "Expense Tracker",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A user-friendly application designed to help individuals manage their budgets by tracking and calculating personal expenses. Developed using React, JavaScript, and CSS, this app provides a clean and intuitive interface for effective expense management and financial oversight. ",
     tags: [
       {
-        name: "nextjs",
+        name: "ReactJS",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "javascript",
         color: "green-text-gradient",
       },
       {
@@ -258,7 +269,7 @@ const projects = [
       },
     ],
     image: tripguide,
-    source_code_link: "https://github.com/",
+    source_code_link: "https://expensestracker27.netlify.app/",
   },
 ];
 
